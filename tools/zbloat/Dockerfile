@@ -6,7 +6,7 @@
 #
 # To make this easier, see zbloat.sh
 
-FROM ubuntu:focal
+FROM ubuntu:20.04
 ARG DEBIAN_FRONTEND=noninteractive
 
 WORKDIR filament
